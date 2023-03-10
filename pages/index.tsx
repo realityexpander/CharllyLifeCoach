@@ -46,7 +46,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Charlly the Finely</h1>
         <h5>Finest AI Motivational Life Coach</h5>
-        <p>"Help <i>me</i> help <i>YOU!</i></p>
+        <p>Help <i>me</i> help <i>YOU!</i></p>
         {/* <br/> */}
 
         {/* <img src="../../assets/images/CraigFurleyMotivationalSpeaker1.png" alt="Craig Furley" height="200"/> */}
