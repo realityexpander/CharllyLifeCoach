@@ -124,9 +124,9 @@ export default function Home() {
               <div className="p-2">
                 {/* <div dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(dynamicString)}}> </div> */}
                 {
-                  quote.split("\n").map((line) => {
+                  quote.split("\n").map((line, i) => {
                     if (line == "") return
-                    return <p style={{ textAlign: "start" }}>{line}</p>
+                    return <p key={i} style={{ textAlign: "start" }}>{line}</p>
                   })
                 }
               </div>
