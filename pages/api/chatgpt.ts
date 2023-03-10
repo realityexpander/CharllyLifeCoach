@@ -38,7 +38,7 @@ export default async function handler(
   if(prompt.length > 100) return res.status(400).json({error: 'Prompt too long'})
 
   const promptContext = `
-     Create a motivational quote that gives the opposite of good advice in the style of Chris Farley on the following Topic:
+     Create a motivational checklist of 5 items that gives the opposite of good advice in the style of Chris Farley on the following Topic:
       Topic: ${prompt}
 
       DO NOT SIGN YOUR NAME TO THE QUOTE
