@@ -21,7 +21,7 @@ String.prototype.trimIndent = function () {
 const config = new Configuration(
   {
     apiKey: process.env.OPENAI_API_KEY,
-    //basePath: 'https://api.openai.com',
+    // basePath: 'https://api.openai.com',
   }
 )
 
