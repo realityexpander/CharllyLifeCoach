@@ -128,6 +128,7 @@ export default function Home() {
                     return <p key={i} style={{ textAlign: "start" }}>{line}</p>
                   })
                 }
+                <p> == GO FOHR IT! == </p>
               </div>
             </div>
           </>
