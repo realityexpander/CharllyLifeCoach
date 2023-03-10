@@ -68,7 +68,7 @@ export default async function handler(
 }
 
 // Check if string is empty or only contains whitespace
-function isBlankString(str): boolean {
+function isBlankString(str: String): boolean {
   if (str.length === 0) return true
 
   for (let i = 0; i < str.length; i++) {
