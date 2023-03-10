@@ -1,5 +1,10 @@
 ![image](https://user-images.githubusercontent.com/5157474/224251486-a97aae07-0e86-4d41-8774-b58c7af25fc1.png)
 
+# Charlly AI Motivational Life Coach
+
+Available at: [https://charlly-life-coach.vercel.app/](https://charlly-life-coach.vercel.app/)
+
+## Project
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
