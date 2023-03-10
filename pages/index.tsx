@@ -51,7 +51,7 @@ export default function Home() {
         style={{
           backgroundImage: `url(${backgroundImage.src})`,
           backgroundRepeat: "repeat",
-          backgroundSize: "70%",
+          backgroundSize: "cover",
           // backgroundBlendMode: "multiply",
           // backgroundSize: "cover",
           // backgroundSize: "cover",
@@ -65,7 +65,6 @@ export default function Home() {
           // justifyContent: "center",
           // alignItems: "center",
         }}
-
       >
 
         <h1>Charlly Finely</h1>
