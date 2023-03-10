@@ -24,6 +24,18 @@
   box-shadow: 0 3px 8px rgb(0 0 0 / 25%);
 }
 
+.goForItImageContainer {
+  position: relative;
+  margin: .5rem 0;
+  width: 20%;
+  aspect-ratio: 9/5;
+}
+
+.goForItImage {
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 25%);
+}
 
 .inputForm {
   width: 100%;
