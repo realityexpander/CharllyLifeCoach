@@ -55,7 +55,7 @@ export default function Home() {
             src={ charllyTopImage } 
             // width={ 200 } 
             fill
-            alt={ "Craig Furley"}
+            alt={ "Charlly Finely"}
             priority // preload image & optimization for above-fold content
             className={styles.mainImage}
           />
