@@ -9,7 +9,7 @@ import charllyGoForIt from '@/assets/images/CharllyGoForIt.png'
 
 export default function Home() {
 
-  const [quote, setQuote] = useState("");
+  const [quote, setQuote] = useState('');
   const [quoteLoading, setQuoteLoading] = useState(false);
   const [quoteLoadingError, setQuoteLoadingError] = useState(false);
 
